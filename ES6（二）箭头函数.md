@@ -191,7 +191,7 @@ b.onclick=function (){
 
 ## 强制绑定
 
-这时，有一个obj2对象，我们不想对它重新定义sayHi方法，可以通过**call/apply/bind**三种方法，调用obj对象的函数时，这时函数内部this指向为obj2，这就是**强制绑定**。
+这时，有一个obj2对象，我们不想在它内部重新定义sayHi方法，可以通过**call/apply/bind**三种方法，调用obj对象的函数时，这时函数内部this指向为obj2，这就是**强制绑定**。
 
 ### call
 
