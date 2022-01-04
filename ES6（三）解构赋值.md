@@ -280,3 +280,34 @@ function fn(){
 let [a,b]=fn() //调用函数
 ```
 
+***
+
+## 面试题
+
+1.从对象`obj`中取值
+
+```javascript
+const obj = {
+    a:1,
+    b:2,
+    c:3,
+    d:4,
+    e:5,
+}
+```
+
+```javascript
+const {a,b,c,d,e} = obj;
+const f = a + d;
+const g = c + e;
+```
+
+想创建的变量名和对象的属性名不一致，起别名：
+
+```javascript
+const {a:a1} = obj;
+console.log(a1);// 1
+```
+
+
+
