@@ -4,7 +4,7 @@
 
 > symbol是ES6 引入了一种新的数据类型，表示独一无二的值。其余几种分别为：字符串（String）、数值（Number）、布尔值（Boolean）、空值（undefined）、空值（null）、大整数（bigInt）、对象（Object）。
 
-本篇整理Symbol，顺便解答以下数据类型的重点问题：
+本篇整理Symbol，顺便整理以下数据类型的重点问题：
 
 - 为什么 `ES6` 要提出 `Symbol`？
 
